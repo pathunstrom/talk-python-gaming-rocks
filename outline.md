@@ -22,7 +22,7 @@
         2. Arcade
         3. Ursina
         4. PursuedPyBear
-    4. Summary
+    4. Transition and summary
         1. No matter taste there's a game engine for you
             1. Batteries includes
             2. Frameworks
@@ -38,3 +38,4 @@
     1. Plenty of libraries and tools with more on the way
     2. Strong community focus
     3. Level up by building something fun.
+    4. Call to action

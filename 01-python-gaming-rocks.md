@@ -9,7 +9,21 @@ specific genres of game development.
 It also tries to answer the question of why use python instead of another
 language.
 
-Let's do the whirlwind tour:
+The important elements:
+
+Python was historically slow and in head to head performance against
+machine code is often slower, at this point has become performant enough to
+work for many kinds of game making. The tradeoff for the slower execution
+speed is a language with much more powerful semantics (including type
+hinting for those who prefer their static typing) and a much faster
+development cycle.
+
+All of this makes python a _great_ choice for small independent games or
+rapid prototyping. Combine all of the above with Python's presence as a
+great language to learn with and you have the building blocks of a great
+education curriculum.
+
+So let's do the whirlwind tour of the space:
 
 In hardware layers we have a bunch of tools. The idea behind calling these
 hardware layers is that they handle most (or all) of the native code
@@ -25,7 +39,7 @@ and getting that out the door.
 
 `pygame` includes one of the best axis-aligned bounding box classes I've 
 ever used, though I have some complaints about how its properties are named.
-It also pitches itself as providing a significant amount of control of the
+It also pitches itself as providing a significant amount of control over the
 game loop: Instead of your code being called by the framework, you call the
 relevant Pygame methods. I can attest to the amount of control available as
 early versions of ppb were built with `pygame` as our primary dependency.
@@ -64,7 +78,7 @@ existing one.
 
 Then we have Arcade, built on top of Pyglet. Its design was for teaching
 code generally, and so most of its objects use the standard Python protocols
-for the built-in type it is most like. One of its big wins is a built
+for the built-in type those objects are most like. One of its big wins is a built-in
 physics engine for platformers.
 
 Also built on pyglet is cocos2d, which has multiple bindings across
@@ -77,9 +91,22 @@ get started. It does some magic with its script runner to put the most
 relevant pygame and pygame zero functions into the global name space so you
 just need to call the functions without import.
 
-No discussion of Python based game engines is complete without mentioned
+No discussion of Python based game engines is complete without at least a mention
 Ren'Py: It's been around for a long time and a number of visual novels have
 been built in it. It uses a custom domain specific language, but the engine
 itself is Python.
 
-And the only engine I haven't talked about here is mine: PursuedPyBear.
+The great thing about this ecosystem is that with the number of projects and
+developers working in the space, there are now enough options to satisfy
+just about everyone's tastes. From loose frameworks to full fledged engines.
+Great options with all the batteries included or leaner libraries and a
+cluster of utility libraries. No matter how you like to code, you've got an
+option.
+
+Now this tour is missing one contender I care a lot about: my engine, ppb.
+So let's talk about that in a bit of detail.
+
+------
+run-times:
+1. 4:06
+------

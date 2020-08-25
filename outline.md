@@ -30,10 +30,11 @@
             4. Full fledged engines
 3. PursuedPyBear
     1. Selling points
-        1. Batteries included
-        2. Extensible and moddable
-        3. Community driven
-    2. The five minute demo
+        1. Community Driven
+        2. Batteries included
+        3. Extensible and moddable
+    1. History
+   3. The five minute demo
 4. If you've not tried to make a game in Python lately, you haven't made a game in Python.
     1. Plenty of libraries and tools with more on the way
     2. Strong community focus

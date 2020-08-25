@@ -1,23 +1,28 @@
-Let's start at the top: I'm an API designer at heart. A lot of what I did
-not like about other options on this list is a combination of having to
-think about problems the way those libraries forced me to and apis that
-didn't feel like Python. So when I started ppb it was mostly to just have
-something that worked in the way I liked.
+So what does ppb offer to set itself apart?
 
-That version was, in a word, awful. I actually couldn't build a game myself
-in it, let alone anyone else. That set me on a journey to really learn API
-design and apply those lessons immediately. Around the same time I was
-showing people this newer engine I was working on, I started getting asked
-by teachers if it could be designed around the classroom environment.
+First, ppb has been for a long time a user-centric project. We've identified
+our core user demographics as learners, educators, and hobbyist. Learners
+were a natural extension of the number one request I received in the early
+days of the project: that ppb be made into a first in class tool for the
+classroom. Teachers got included because if a teacher can't use the tool,
+they can't teach with it. And finally hobbyists became a core demographic
+when we started thinking about the long time learning path of students: many
+people who learn to code in games continue making games as they stop being
+considered students.
 
-That ask became my, and eventually our, driving force: what would a Python
-game engine need to be to be genuinely the best tool for the classroom. With
-the note that not all education is equal, I set down that road. The first
-thing I realized was that the boilerplate had to go. Why did it take 20
-lines of python to have a window that you could close?
+By identifying these groups, we're in the process of becoming a community
+driven project. A few times of year we have a semi-open meeting with
+stakeholders from the core development team, and each of our core
+demographics (currently excepting students due to not having many that have
+joined the community). This meeting helps plan our long, medium, and short
+term goals as a project.
 
-So I'd already thrown out 0.1 of ppb at that point, and started building. I
-focused on a handful of things: Python is object oriented, and getting used
-to that would be important. Also, Python was at its best when you could
-focus only on the problem you wanted to solve and nothing else. So I focused
-on making rendering easier and easier.
+Our hobbyist focus led us to make sure ppb isn't one set of opinions: The
+entire system is modular and extensible. You can subclass the various
+components with confidence, replace defaults when needed, and even rip out
+which hardware backing you use and replace it with your own.
+
+The most important selling point though is that we've picked a stable and
+useful set of defaults that allow you start building immediately. We pick a
+resolution, a set of subsystems that let you handle things like input and
+sound. Sprites get a default colored block with no code.
